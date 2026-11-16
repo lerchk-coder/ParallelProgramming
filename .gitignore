@@ -1,0 +1,25 @@
+# Build artifacts
+build/
+*.exe
+*.o
+*.obj
+*.out
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.vs/
+out/
+data/
+pic/
+results.csv
+result.txt
