@@ -1,10 +1,9 @@
 import matplotlib.pyplot as plt
-import numpy as np
 import os
 
 N = [256, 512, 1024, 2048]
 time_cpu = [0.8, 6.2, 53.6, 420.0]
-time_gpu = [0.002, 0.01, 0.05, 0.3]
+time_gpu = [0.0025, 0.0105, 0.0480, 0.3100]
 
 os.makedirs('../lab4/pic', exist_ok=True)
 
@@ -20,4 +19,4 @@ plt.grid(True, which="both", ls="--")
 plt.legend()
 plt.savefig('../lab4/pic/cuda_vs_cpu_time.png', dpi=150)
 plt.show()
-print("График сохранён в ../lab4/pic/cuda_vs_cpu_time.png")s
+print("График сохранён в ../lab4/pic/cuda_vs_cpu_time.png")

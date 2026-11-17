@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 3.18)
+
+set(CUDAToolkit_ROOT "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.5")
+set(CMAKE_CUDA_COMPILER "${CUDAToolkit_ROOT}/bin/nvcc.exe")
+
 project(ParallelProgramming_Labs LANGUAGES CXX CUDA)
 
 set(CMAKE_CXX_STANDARD 17)
